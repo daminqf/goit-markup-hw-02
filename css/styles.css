@@ -4,7 +4,20 @@ body {
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
-}   
+}
+
+.link {
+    font-weight: 500;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.address {
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
+    color: #434455;
+}
 
 .hero {
     background-color: #2E2F42;
@@ -23,6 +36,10 @@ h2 {
     font-size: 36px;
     color: #2E2F42;
     text-align: center;
+}
+
+.team {
+    background-color: #F4F4FD;
 }
 
 .logo {
@@ -46,4 +63,29 @@ h3 {
     line-height: 1.2;
     letter-spacing: 2%;
     color: #2E2F42;
+}
+
+.foot {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.studio {
+    color: #F4F4FD;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.1666;
+    letter-spacing: 3%;
+}
+
+.order {
+    cursor: pointer;
+}
+
+.team .team-card {
+    background-color: #FFFFFF;
+    
 }
