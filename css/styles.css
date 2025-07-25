@@ -102,6 +102,20 @@ h2 {
     color: #434455
 }
 
+.team .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform:capitalize;
+    color:#2E2F42;
+}
+
+.team .team-card {
+    background-color: #FFFFFF;
+
+}
+
 .foot {
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -118,7 +132,3 @@ h2 {
     letter-spacing: 3%;
 }
 
-.team .team-card {
-    background-color: #FFFFFF;
-    
-}
