@@ -102,7 +102,7 @@ h2 {
     color: #434455
 }
 
-.team .title {
+.title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -121,14 +121,10 @@ h2 {
     color: #F4F4FD;
 }
 
-.studio {
-    color: #F4F4FD;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    font-family: "Raleway", sans-serif;
-    line-height: 1.1666;
-    letter-spacing: 3%;
+.foot .accent {
+    color:#f4f4fd;
 }
 
+.foot .feature-text {
+    color:#f4f4fd
+}
