@@ -1,9 +1,10 @@
 body {
-    font-family: "roboto" ,sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -12,11 +13,22 @@ body {
     text-decoration: none;
 }
 
+.link:focus,
+.link:hover {
+    color: #404bbf;
+}
+
 .address {
     text-decoration: none;
     text-transform: none;
     font-style: normal;
     color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.address:focus,
+.address:hover {
+    color: #404bbf;
 }
 
 .hero {
@@ -43,18 +55,18 @@ h2 {
 }
 
 .logo {
-    color:#2E2F42;
+    color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-    line-height: 1.1666;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .accent {
-    color:#4D5AE5
+    color: #2E2F42;
 }
 
 h3 {
