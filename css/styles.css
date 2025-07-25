@@ -11,6 +11,7 @@ body {
     font-weight: 500;
     color: #2E2F42;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .link:focus,
@@ -18,7 +19,7 @@ body {
     color: #404bbf;
 }
 
-.address {
+.address-link {
     text-decoration: none;
     text-transform: none;
     font-style: normal;
@@ -26,8 +27,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.address:focus,
-.address:hover {
+.address-link:focus,
+.address-link:hover {
     color: #404bbf;
 }
 
@@ -36,11 +37,28 @@ body {
     color: #FFFFFF;
 }
 
-.hero > h1 {
+.hero-title {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.0714;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-order {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-order:focus,
+.hero-order:hover {
+    background-color: #404bbf;
 }
 
 h2 {
@@ -69,12 +87,19 @@ h2 {
     color: #2E2F42;
 }
 
-h3 {
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
 }
 
 .foot {
@@ -91,10 +116,6 @@ h3 {
     font-family: "Raleway", sans-serif;
     line-height: 1.1666;
     letter-spacing: 3%;
-}
-
-.order {
-    cursor: pointer;
 }
 
 .team .team-card {
