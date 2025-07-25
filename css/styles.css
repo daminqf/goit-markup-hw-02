@@ -19,10 +19,13 @@ body {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal
+}
+
 .address-link {
     text-decoration: none;
     text-transform: none;
-    font-style: normal;
     color: #434455;
     letter-spacing: 0.02em;
 }
